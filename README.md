@@ -1,4 +1,13 @@
-# Montreal Python 57 content
+# Montreal Python 57 presentation content
+
+## Uncompressing the audio sample files
+
+There are two archives of audio files, the training data `genres2` and the
+additional data `lastfm-top-tracks`. Uncompress all archives with the provided
+script:
+
+    ./setup
+
 
 ## Installing the required packages
 
@@ -52,9 +61,10 @@ mode).
 
 ## Launching the notebook Web application
 
-You're ready to launch Jupyter. Run `jupyter notebook` (or `~/.local/bin/jupyter notebook) and look
-for the notebook. After a few seconds, Spark should have launched (check for errors). Fix the paths
-to source data to match your own environment and execute all the cells.
+You're ready to launch Jupyter. Run `jupyter notebook` (or
+`~/.local/bin/jupyter notebook`) and start the notebook. After a few seconds,
+Spark should have launched (check for errors). Fix the paths to source data to
+match your own environment and execute all the cells.
 
 
 ## Issues and improvements

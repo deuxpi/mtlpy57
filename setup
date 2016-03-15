@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ ! -f lastfm-top-tracks ]; then
+    tar xzf lastfm-top-tracks.tar.gz
+fi
+cd genres2
+for f in *.tar.gz; do
+    d=`basename $f .tar.gz`
+    if [ ! -d $d ]; then
+        tar xzf $f
+    fi
+done
