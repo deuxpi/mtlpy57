@@ -1,0 +1,18 @@
+{
+  "display_name": "Spark 1.6.0 (Python 3.5)",
+  "language": "python",
+  "argv": [
+    "/usr/bin/python3.5",
+    "-m",
+    "ipykernel",
+    "-f",
+    "{connection_file}"
+  ],
+  "env": {
+    "SPARK_HOME": "/opt/spark",
+    "PYTHONPATH": "/opt/spark/python:/opt/spark/python/lib/py4j-0.9-src.zip",
+    "PYTHONSTARTUP": "/opt/spark/python/pyspark/shell.py",
+    "PYSPARK_PYTHON": "/usr/bin/python3.5",
+    "PYSPARK_SUBMIT_ARGS": "--master spark://espresso:7077 --executor-memory 3g --executor-cores 1 pyspark-shell"
+  }
+}

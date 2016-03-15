@@ -1,0 +1,11 @@
+ipykernel==4.0.3
+ipython==4.0.0
+jupyter==1.0.0
+jupyter-client==4.0.0
+jupyter-core==4.0.4
+librosa==0.4.2
+matplotlib==1.5.1
+numpy==1.10.1
+pandas==0.17.1
+scipy==0.16.1
+scikit-learn==0.17.1
